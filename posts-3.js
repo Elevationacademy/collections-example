@@ -6,6 +6,14 @@
 //     user: '' 
 //   },
 
+// });
+
+// // define our posts collection
+// var PostsCollection = Backbone.Collection.extend({
+//   // tell our app that our PostsCollection expects
+//   // PostModels
+//   model: PostModel,
+  
 //   initialize: function () {
 //     this.on('change:likes', function (post) {
 //       console.log(post.toJSON());
@@ -15,13 +23,6 @@
 //       console.log('add!');
 //     });
 //   },
-// });
-
-// // define our posts collection
-// var PostsCollection = Backbone.Collection.extend({
-//   // tell our app that our PostsCollection expects
-//   // PostModels
-//   model: PostModel
 // });
 
 // var postsCollection = new PostsCollection();
